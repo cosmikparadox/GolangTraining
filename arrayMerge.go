@@ -42,6 +42,7 @@ func createArrays(al1 int, al2 int) ([]int, []int) {
 	func createArrays(getLength ())
 	Of course ths is wrong but is there any way I can do this rather than calling the function in main and then passing
 	those values down to createArrays like how its currently doing?
+	can we use closure here?
 	*/
 
 	array1 := make([]int, al1)
@@ -67,5 +68,4 @@ func createArrays(al1 int, al2 int) ([]int, []int) {
 	}
 
 	return array1, array2
-
 }
